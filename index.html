@@ -14,12 +14,8 @@
 
     <!--[if mso]>
       <style type="text/css">
-        a {
-          text-decoration: none;
-        }
-        table {
-          border-collapse: collapse;
-        }
+        a { text-decoration: none; }
+        table { border-collapse: collapse; }
       </style>
     <![endif]-->
 
@@ -33,7 +29,6 @@
     <![endif]-->
 
     <style type="text/css">
-      /* Reset Styles */
       body {
         margin: 0 !important;
         padding: 0 !important;
@@ -41,14 +36,12 @@
         -webkit-text-size-adjust: 100%;
         -ms-text-adjust: 100%;
       }
-
       table {
         border-spacing: 0;
         mso-table-lspace: 0pt;
         mso-table-rspace: 0pt;
         border-collapse: collapse;
       }
-
       img {
         border: 0;
         outline: none;
@@ -56,23 +49,13 @@
         -ms-interpolation-mode: bicubic;
         display: block;
       }
-
-      a {
-        text-decoration: none;
-      }
-
-      strong {
-        font-weight: bold;
-      }
-
-      /* Outlook Link Color */
+      a { text-decoration: none; }
+      strong { font-weight: bold; }
       span.MsoHyperlink,
       span.MsoHyperlinkFollowed {
         color: inherit !important;
         mso-style-priority: 99;
       }
-
-      /* Apple Data Detectors */
       a[x-apple-data-detectors] {
         color: inherit !important;
         text-decoration: none !important;
@@ -81,35 +64,16 @@
         font-weight: inherit !important;
         line-height: inherit !important;
       }
-
-      /* Gmail Fix */
-      u + .body img ~ div div {
-        display: none;
-      }
-
-      #outlook a {
-        padding: 0;
-      }
-
-      /* Base Wrapper */
-      .wrapper {
-        background-color: #f8fafc;
-        width: 100%;
-      }
-
-      .content-wrapper {
-        max-width: 700px;
-        margin: 0 auto;
-      }
-
-      /* Typography */
+      u + .body img ~ div div { display: none; }
+      #outlook a { padding: 0; }
+      .wrapper { background-color: #f8fafc; width: 100%; }
+      .content-wrapper { max-width: 700px; margin: 0 auto; }
       .heading-serif {
         font-family: lora, georgia, "times new roman", serif;
         mso-line-height-rule: exactly;
         letter-spacing: 0;
         margin: 0;
       }
-
       .body-text {
         font-family: helvetica, "helvetica neue", arial, verdana, sans-serif;
         mso-line-height-rule: exactly;
@@ -117,205 +81,56 @@
         margin: 0;
       }
 
-      /* Mobile Responsive Styles */
       @media only screen and (max-width: 600px) {
-        .mobile-padding {
-          padding-left: 20px !important;
-          padding-right: 20px !important;
-        }
-
-        .mobile-top-padding {
-          padding-top: 40px !important;
-        }
-
-        .mobile-full-width {
-          width: 100% !important;
-          height: auto !important;
-        }
-
-        .mobile-text-center {
-          text-align: center !important;
-        }
-
-        /* Heading Sizes */
-        h1,
-        h1 a {
-          font-size: 30px !important;
-          line-height: 120% !important;
-          text-align: center;
-        }
-
-        h2,
-        h2 a {
-          font-size: 26px !important;
-          line-height: 120% !important;
-          text-align: center;
-        }
-
-        h3,
-        h3 a {
-          font-size: 20px !important;
-          line-height: 120% !important;
-          text-align: center;
-        }
-
-        /* Body Text Sizes */
-        .body-text,
-        .body-text a,
-        p,
-        a {
-          font-size: 16px !important;
-          line-height: 150% !important;
-        }
-
-        /* Specific Size Classes - 22px headings on mobile */
-        .heading-22 {
-          font-size: 22px !important;
-        }
-
-        /* 18px text with 200% line-height preserved */
-        .text-18 {
-          font-size: 18px !important;
-          line-height: 200% !important;
-        }
-
-        /* Footer text */
-        .footer-text,
-        .footer-text a {
-          font-size: 14px !important;
-        }
-
-        /* Button Styles */
-        a.button,
-        button.button {
-          font-size: 16px !important;
-          line-height: 120% !important;
-          display: block !important;
-        }
-
-        /* Table Widths */
-        .content-table,
-        .header-table,
-        .footer-table {
-          width: 100% !important;
-          max-width: 600px !important;
-        }
-
-        .adapt-img {
-          width: 100% !important;
-          height: auto !important;
-        }
-
-        /* Menu and Social */
-        .menu td {
-          width: 1% !important;
-        }
-
-        /* List spacing */
-        ul {
-          padding-left: 20px !important;
-        }
-
-        li {
-          margin-bottom: 10px !important;
-        }
+        .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; }
+        .mobile-top-padding { padding-top: 40px !important; }
+        .mobile-full-width { width: 100% !important; height: auto !important; }
+        .mobile-text-center { text-align: center !important; }
+        h1, h1 a { font-size: 30px !important; line-height: 120% !important; text-align: center; }
+        h2, h2 a { font-size: 26px !important; line-height: 120% !important; text-align: center; }
+        h3, h3 a { font-size: 20px !important; line-height: 120% !important; text-align: center; }
+        .body-text, .body-text a, p, a { font-size: 16px !important; line-height: 150% !important; }
+        .heading-22 { font-size: 22px !important; }
+        .text-18 { font-size: 18px !important; line-height: 200% !important; }
+        .footer-text, .footer-text a { font-size: 14px !important; }
+        a.button, button.button { font-size: 16px !important; line-height: 120% !important; display: block !important; }
+        .content-table, .header-table, .footer-table { width: 100% !important; max-width: 600px !important; }
+        .adapt-img { width: 100% !important; height: auto !important; }
+        .menu td { width: 1% !important; }
+        ul { padding-left: 20px !important; }
+        li { margin-bottom: 10px !important; }
       }
 
       @media screen and (max-width: 384px) {
-        .mail-message-content {
-          width: 100% !important;
-        }
+        .mail-message-content { width: 100% !important; }
       }
     </style>
   </head>
 
-  <body
-    style="
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #f8fafc;
-    "
-  >
+  <body style="margin: 0; padding: 0; width: 100%; height: 100%; background-color: #f8fafc;">
     <div class="wrapper">
-      <!-- ========================================
-         SECTION: Hero Banner
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+
+      <!-- SECTION: Hero Banner -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width: 700px; margin: 0 auto; background-color: #ffffff;">
         <tr>
-          <td style="padding: 0">
+          <td style="padding: 0;">
             <a href="https://www.pace-cardiology.com/" target="_blank">
-              <img
-                src="https://pace-newsletter-dev.netlify.app/img/herobanner.jpg"
-                alt="PACE Cardiology"
-                width="700"
-                height="233"
-                class="mobile-full-width adapt-img"
-                style="
-                  display: block;
-                  width: 100%;
-                  max-width: 700px;
-                  height: auto;
-                  border: 0;
-                "
-              />
+              <img src="https://pace-newsletter-dev.netlify.app/img/herobanner.jpg" alt="PACE Cardiology" width="700" height="233" class="mobile-full-width adapt-img" style="display: block; width: 100%; max-width: 700px; height: auto; border: 0;" />
             </a>
           </td>
         </tr>
       </table>
 
-      <!-- ========================================
-         SECTION: Header Title
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="content-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+      <!-- SECTION: Header Title -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="content-table" style="max-width: 700px; margin: 0 auto; background-color: #ffffff;">
         <tr>
-          <td class="mobile-padding" style="padding: 50px 50px 10px 50px">
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
+          <td class="mobile-padding" style="padding: 50px 50px 10px 50px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td style="padding: 0">
-                  <!-- Spacer -->
-                  <div style="height: 10px; font-size: 0; line-height: 0">
-                    &nbsp;
-                  </div>
-
-                  <!-- Title -->
-                  <h3
-                    class="heading-serif heading-22"
-                    style="
-                      margin: 0;
-                      font-family: lora, georgia, 'times new roman', serif;
-                      mso-line-height-rule: exactly;
-                      letter-spacing: 0;
-                      font-size: 28px;
-                      font-weight: normal;
-                      line-height: 36px;
-                      color: #1d3557;
-                      text-align: center;
-                    "
-                  >
-                    <strong>Advancing Heart Health</strong>
+                <td style="padding: 0;">
+                  <div style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</div>
+                  <h3 class="heading-serif heading-22" style="margin: 0; font-family: lora, georgia, 'times new roman', serif; mso-line-height-rule: exactly; letter-spacing: 0; font-size: 28px; font-weight: normal; line-height: 36px; color: #1d3557; text-align: center;">
+                    <strong>We're proud to share an exciting milestone!</strong>
                   </h3>
                 </td>
               </tr>
@@ -324,280 +139,94 @@
         </tr>
       </table>
 
-      <!-- ========================================
-         SECTION: Opening Message
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="content-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+      <!-- SECTION: Opening Message -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="content-table" style="max-width: 700px; margin: 0 auto; background-color: #ffffff;">
         <tr>
-          <td
-            class="mobile-padding mobile-top-padding"
-            style="padding: 20px 50px 50px 50px"
-          >
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
+          <td class="mobile-padding mobile-top-padding" style="padding: 20px 50px 50px 50px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td style="padding: 0">
-                  <!-- Greeting -->
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                    "
-                  >
+                <td style="padding: 0;">
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px;">
                     Dear Healthcare Provider,
                   </p>
-
-                  <!-- Intro Text -->
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                    "
-                  >
-                    Thank you for your continued trust and referrals. We're
-                    excited to share new enhancements at PACE Cardiology that
-                    improve patient access, technology, and outcomes.
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px;">
+                    PACE Cardiology is proud to be the first clinic contributing patient health records to ConnectingOntario!
                   </p>
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px;">
+                    This means more connected, coordinated care. By securely sharing health information with hospitals and healthcare providers across Ontario, we're helping ensure that care teams have access to the information they need—when they need it.
+                  </p>
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px;">
+                    We're proud to be leading the way in innovation and collaboration in cardiac care.
+                  </p>
+                  <!-- CTA Button -->
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-top: 10px;">
+                    <tr>
+                      <td style="border-radius: 5px; background-color: #ed323f;">
+                        <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.pace-cardiology.com/" style="height: 62px; v-text-anchor: middle; width: 220px;" arcsize="8%" stroke="f" fillcolor="#ed323f">
+                            <w:anchorlock />
+                            <center style="color: #ffffff; font-family: Arial, sans-serif; font-size: 18px; font-weight: normal;">Visit Our Website</center>
+                          </v:roundrect>
+                        <![endif]-->
+                        <!--[if !mso]><!-->
+                        <a href="https://www.pace-cardiology.com/" target="_blank" style="background: #ed323f; color: #ffffff !important; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; font-size: 18px; font-weight: normal; line-height: 22px; text-decoration: none; padding: 20px 25px; display: inline-block; border-radius: 5px;">
+                          Visit Our Website
+                        </a>
+                        <!--<![endif]-->
+                      </td>
+                    </tr>
+                  </table>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
       </table>
-      <!-- ========================================
-         SECTION: Image Banner (Rapid Access Clinics)
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+
+      <!-- SECTION: Image Banner (Rapid Access Clinics) -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width: 700px; margin: 0 auto; background-color: #ffffff;">
         <tr>
-          <td style="padding: 0">
-              <img
-                src="https://pace-newsletter-dev.netlify.app/img/rapid-access.jpg"
-                alt="PACE Cardiology"
-                width="700"
-                height="233"
-                class="mobile-full-width adapt-img"
-                style="
-                  display: block;
-                  width: 100%;
-                  max-width: 700px;
-                  height: auto;
-                  border: 0;
-                "
-              />
+          <td style="padding: 0;">
+            <img src="https://pace-newsletter-dev.netlify.app/img/heart-computer.jpg" alt="PACE Cardiology" width="700" height="233" class="mobile-full-width adapt-img" style="display: block; width: 100%; max-width: 700px; height: auto; border: 0;" />
           </td>
         </tr>
       </table>
-      <!-- ========================================
-         SECTION: Rapid Access Clinics
-         Background: Light Gray (#f4f7fa)
-         Icon: Clinic
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="content-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa"
-      >
+
+      <!-- SECTION: Rapid Access Clinics -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="content-table" style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa;">
         <tr>
-          <td
-            class="mobile-padding mobile-top-padding"
-            style="padding: 60px 50px"
-          >
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
+          <td class="mobile-padding mobile-top-padding" style="padding: 60px 50px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td style="padding: 0; text-align: center">
-                  <!-- Icon -->
-                  <img
-                    src="https://pace-newsletter-dev.netlify.app/img/clinic.png"
-                    alt=""
-                    width="60"
-                    height="60"
-                    style="display: block; margin: 0 auto; border: 0"
-                  />
-
-                  <!-- Spacer -->
-                  <div style="height: 10px; font-size: 0; line-height: 0">
-                    &nbsp;
-                  </div>
-
-                  <!-- Heading -->
-                  <h3
-                    class="heading-serif heading-22"
-                    style="
-                      margin: 0;
-                      font-family: lora, georgia, 'times new roman', serif;
-                      mso-line-height-rule: exactly;
-                      letter-spacing: 0;
-                      font-size: 24px;
-                      font-weight: normal;
-                      line-height: 36px;
-                      color: #ed323f;
-                      text-align: center;
-                    "
-                  >
+                <td style="padding: 0; text-align: center;">
+                  <img src="https://pace-newsletter-dev.netlify.app/img/clinic.png" alt="" width="60" height="60" style="display: block; margin: 0 auto; border: 0;" />
+                  <div style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</div>
+                  <h3 class="heading-serif heading-22" style="margin: 0; font-family: lora, georgia, 'times new roman', serif; mso-line-height-rule: exactly; letter-spacing: 0; font-size: 24px; font-weight: normal; line-height: 36px; color: #ed323f; text-align: center;">
                     <strong>Rapid Access Clinics</strong>
                   </h3>
-
-                  <!-- Content -->
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                      text-align: left;
-                    "
-                  >
-                    Your patients can now be seen
-                    <strong>faster than ever</strong> with our:
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px; text-align: left;">
+                    Your patients can now be seen <strong>faster than ever</strong> with our:
                   </p>
-
-                  <!-- Services List -->
-                  <ul
-                    style="
-                      margin: 15px 0;
-                      padding-left: 25px;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      font-size: 18px;
-                      line-height: 28px;
-                      color: #334155;
-                      text-align: left;
-                    "
-                  >
-                    <li style="margin-bottom: 14px">
-                      Cardiac Risk Reduction Clinic: NP-led (lipids, blood
-                      pressure, weight)
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      Atrial Fibrillation Clinic
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      General Cardiology Consults in Newmarket and Barrie
-                    </li>
+                  <ul style="margin: 15px 0; padding-left: 25px; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; font-size: 18px; line-height: 28px; color: #334155; text-align: left;">
+                    <li style="margin-bottom: 14px;">Cardiac Risk Reduction Clinic: NP-led (lipids, blood pressure, weight)</li>
+                    <li style="margin-bottom: 14px;">Atrial Fibrillation Clinic</li>
+                    <li style="margin-bottom: 14px;">General Cardiology Consults in Newmarket and Barrie</li>
                   </ul>
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                      text-align: left;
-                    "
-                  >
-                    <strong>Same-week assessments</strong> now available,
-                    including ECHO, GXT, and Holter services (Newmarket location
-                    only).
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px; text-align: left;">
+                    <strong>Same-week assessments</strong> now available, including ECHO, GXT, and Holter services (Newmarket location only).
                   </p>
                   <!-- CTA Button -->
-                  <table
-                    role="presentation"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    align="center"
-                    style="margin-top: 20px"
-                  >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-top: 20px;">
                     <tr>
-                      <td style="border-radius: 5px; background-color: #ed323f">
+                      <td style="border-radius: 5px; background-color: #ed323f;">
                         <!--[if mso]>
-                          <v:roundrect
-                            xmlns:v="urn:schemas-microsoft-com:vml"
-                            xmlns:w="urn:schemas-microsoft-com:office:word"
-                            href="https://www.pace-cardiology.com/referrals"
-                            style="
-                              height: 62px;
-                              v-text-anchor: middle;
-                              width: 220px;
-                            "
-                            arcsize="8%"
-                            stroke="f"
-                            fillcolor="#ed323f"
-                          >
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://afcompanion.com/PacePatientReferralForm.html" style="height: 62px; v-text-anchor: middle; width: 220px;" arcsize="8%" stroke="f" fillcolor="#ed323f">
                             <w:anchorlock />
-                            <center
-                              style="
-                                color: #ffffff;
-                                font-family: Arial, sans-serif;
-                                font-size: 18px;
-                                font-weight: normal;
-                              "
-                            >
-                              Submit a Referral
-                            </center>
+                            <center style="color: #ffffff; font-family: Arial, sans-serif; font-size: 18px; font-weight: normal;">Submit a Referral</center>
                           </v:roundrect>
                         <![endif]-->
                         <!--[if !mso]><!-->
-                        <a
-                          href="https://afcompanion.com/PacePatientReferralForm.html"
-                          target="_blank"
-                          style="
-                            background: #ed323f;
-                            color: #ffffff !important;
-                            font-family: helvetica, 'helvetica neue', arial,
-                              verdana, sans-serif;
-                            font-size: 18px;
-                            font-weight: normal;
-                            line-height: 22px;
-                            text-decoration: none;
-                            padding: 20px 25px;
-                            display: inline-block;
-                            border-radius: 5px;
-                          "
-                        >
+                        <a href="https://afcompanion.com/PacePatientReferralForm.html" target="_blank" style="background: #ed323f; color: #ffffff !important; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; font-size: 18px; font-weight: normal; line-height: 22px; text-decoration: none; padding: 20px 25px; display: inline-block; border-radius: 5px;">
                           Submit a Referral
                         </a>
                         <!--<![endif]-->
@@ -611,381 +240,49 @@
         </tr>
       </table>
 
-      <!-- ========================================
-         SECTION: Image Banner (Advanced Diagnostic Technology)
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+      <!-- SECTION: Image Banner (Advanced Cardiac Procedures) -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa;">
         <tr>
-          <td style="padding: 0">
-              <img
-                src="https://pace-newsletter-dev.netlify.app/img/monitor-comparison.jpg"
-                alt="PACE Cardiology"
-                width="700"
-                height="233"
-                class="mobile-full-width adapt-img"
-                style="
-                  display: block;
-                  width: 100%;
-                  max-width: 700px;
-                  height: auto;
-                  border: 0;
-                "
-              />
+          <td style="padding: 0;">
+            <img src="https://pace-newsletter-dev.netlify.app/img/yaariv-southlake.jpg" alt="PACE Cardiology" width="700" height="233" class="mobile-full-width adapt-img" style="display: block; width: 100%; max-width: 700px; height: auto; border: 0;" />
           </td>
         </tr>
       </table>
 
-      <!-- ========================================
-         SECTION: Advanced Diagnostic Technology
-         Background: White (#ffffff)
-         Icon: Smart Garment/Shirt
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="content-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #ffffff"
-      >
+      <!-- SECTION: Advanced Cardiac Procedures -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="content-table" style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa;">
         <tr>
-          <td class="mobile-padding mobile-top-padding" style="padding: 50px">
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
+          <td class="mobile-padding mobile-top-padding" style="padding: 60px 50px 40px 50px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td style="padding: 0; text-align: center">
-                  <!-- Icon -->
-                  <img
-                    src="https://pace-newsletter-dev.netlify.app/img/shirt.png"
-                    alt=""
-                    width="60"
-                    height="60"
-                    style="display: block; margin: 0 auto; border: 0"
-                  />
-
-                  <!-- Spacer -->
-                  <div style="height: 10px; font-size: 0; line-height: 0">
-                    &nbsp;
-                  </div>
-
-                  <!-- Heading -->
-                  <h3
-                    class="heading-serif heading-22"
-                    style="
-                      margin: 0;
-                      font-family: lora, georgia, 'times new roman', serif;
-                      mso-line-height-rule: exactly;
-                      letter-spacing: 0;
-                      font-size: 24px;
-                      font-weight: normal;
-                      line-height: 36px;
-                      color: #ed323f;
-                      text-align: center;
-                    "
-                  >
-                    <strong>Advanced Diagnostic Technology</strong>
-                  </h3>
-
-                  <!-- Content -->
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                      text-align: left;
-                    "
-                  >
-                    We're proud to be the first clinic using Myant textile
-                    computing Holters — comfortable, discreet, and efficient,
-                    with same-day scanning and 24-hour report turnaround.
-                  </p>
-
-                  <!-- CTA Button -->
-                  <table
-                    role="presentation"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    align="center"
-                    style="margin-top: 20px"
-                  >
-                    <tr>
-                      <td style="border-radius: 5px; background-color: #ed323f">
-                        <!--[if mso]>
-                          <v:roundrect
-                            xmlns:v="urn:schemas-microsoft-com:vml"
-                            xmlns:w="urn:schemas-microsoft-com:office:word"
-                            href="https://www.pace-cardiology.com/referrals"
-                            style="
-                              height: 62px;
-                              v-text-anchor: middle;
-                              width: 220px;
-                            "
-                            arcsize="8%"
-                            stroke="f"
-                            fillcolor="#ed323f"
-                          >
-                            <w:anchorlock />
-                            <center
-                              style="
-                                color: #ffffff;
-                                font-family: Arial, sans-serif;
-                                font-size: 18px;
-                                font-weight: normal;
-                              "
-                            >
-                              Submit a Referral
-                            </center>
-                          </v:roundrect>
-                        <![endif]-->
-                        <!--[if !mso]><!-->
-                        <a
-                          href="https://afcompanion.com/PacePatientReferralForm.html"
-                          target="_blank"
-                          style="
-                            background: #ed323f;
-                            color: #ffffff !important;
-                            font-family: helvetica, 'helvetica neue', arial,
-                              verdana, sans-serif;
-                            font-size: 18px;
-                            font-weight: normal;
-                            line-height: 22px;
-                            text-decoration: none;
-                            padding: 20px 25px;
-                            display: inline-block;
-                            border-radius: 5px;
-                          "
-                        >
-                          Submit a Referral
-                        </a>
-                        <!--<![endif]-->
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-
-      <!-- ========================================
-         SECTION: Image Banner (Advanced Cardiac Procedures)
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa"
-      >
-        <tr>
-          <td style="padding: 0">
-              <img
-                src="https://pace-newsletter-dev.netlify.app/img/yaariv-southlake.jpg"
-                alt="PACE Cardiology"
-                width="700"
-                height="233"
-                class="mobile-full-width adapt-img"
-                style="
-                  display: block;
-                  width: 100%;
-                  max-width: 700px;
-                  height: auto;
-                  border: 0;
-                "
-              />
-          </td>
-        </tr>
-      </table>
-
-      <!-- ========================================
-         SECTION: Advanced Cardiac Procedures
-         Background: Light Gray (#f4f7fa)
-         Icon: Doctor
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="content-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #f4f7fa"
-      >
-        <tr>
-          <td
-            class="mobile-padding mobile-top-padding"
-            style="padding: 60px 50px 40px 50px"
-          >
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
-              <tr>
-                <td style="padding: 0; text-align: center">
-                  <!-- Icon -->
-                  <img
-                    src="https://pace-newsletter-dev.netlify.app/img/doctor.png"
-                    alt=""
-                    width="60"
-                    height="60"
-                    style="display: block; margin: 0 auto; border: 0"
-                  />
-
-                  <!-- Spacer -->
-                  <div style="height: 10px; font-size: 0; line-height: 0">
-                    &nbsp;
-                  </div>
-
-                  <!-- Heading -->
-                  <h3
-                    class="heading-serif heading-22"
-                    style="
-                      margin: 0;
-                      font-family: lora, georgia, 'times new roman', serif;
-                      mso-line-height-rule: exactly;
-                      letter-spacing: 0;
-                      font-size: 24px;
-                      font-weight: normal;
-                      line-height: 36px;
-                      color: #ed323f;
-                      text-align: center;
-                    "
-                  >
+                <td style="padding: 0; text-align: center;">
+                  <img src="https://pace-newsletter-dev.netlify.app/img/doctor.png" alt="" width="60" height="60" style="display: block; margin: 0 auto; border: 0;" />
+                  <div style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</div>
+                  <h3 class="heading-serif heading-22" style="margin: 0; font-family: lora, georgia, 'times new roman', serif; mso-line-height-rule: exactly; letter-spacing: 0; font-size: 24px; font-weight: normal; line-height: 36px; color: #ed323f; text-align: center;">
                     <strong>Advanced Cardiac Procedures</strong>
                   </h3>
-
-                  <!-- Content -->
-                  <p
-                    class="body-text text-18"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #334155;
-                      font-size: 18px;
-                      text-align: left;
-                    "
-                  >
+                  <p class="body-text text-18" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #334155; font-size: 18px; text-align: left;">
                     PACE's affiliation with <strong>Southlake Health</strong> allows us to provide full procedural support, including:
                   </p>
-
-                  <!-- Procedures List -->
-                  <ul
-                    style="
-                      margin: 15px 0;
-                      padding-left: 25px;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      font-size: 18px;
-                      line-height: 28px;
-                      color: #334155;
-                      text-align: left;
-                    "
-                  >
-                    <li style="margin-bottom: 14px">
-                      Cardioversions & Ablation Procedures
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      Expertise in pulsed field ablation (AFib) and radiation
-                      ablation (VT) for high-risk patients
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      Pacemaker & Defibrillator Implantation
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      Left Atrial Appendage Occlusion (LAAO) using Watchman and
-                      Amulet devices
-                    </li>
-                    <li style="margin-bottom: 14px">
-                      PACE is one of few centres worldwide performing combined
-                      AF ablation + LAAO in one procedure
-                    </li>
+                  <ul style="margin: 15px 0; padding-left: 25px; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; font-size: 18px; line-height: 28px; color: #334155; text-align: left;">
+                    <li style="margin-bottom: 14px;">Cardioversions &amp; Ablation Procedures</li>
+                    <li style="margin-bottom: 14px;">Expertise in pulsed field ablation (AFib) and radiation ablation (VT) for high-risk patients</li>
+                    <li style="margin-bottom: 14px;">Pacemaker &amp; Defibrillator Implantation</li>
+                    <li style="margin-bottom: 14px;">Left Atrial Appendage Occlusion (LAAO) using Watchman and Amulet devices</li>
+                    <li style="margin-bottom: 14px;">PACE is one of few centres worldwide performing combined AF ablation + LAAO in one procedure</li>
                   </ul>
-
                   <!-- CTA Button -->
-                  <table
-                    role="presentation"
-                    cellspacing="0"
-                    cellpadding="0"
-                    border="0"
-                    align="center"
-                    style="margin-top: 20px; margin-bottom: 30px"
-                  >
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-top: 20px; margin-bottom: 30px;">
                     <tr>
-                      <td style="border-radius: 5px; background-color: #ed323f">
+                      <td style="border-radius: 5px; background-color: #ed323f;">
                         <!--[if mso]>
-                          <v:roundrect
-                            xmlns:v="urn:schemas-microsoft-com:vml"
-                            xmlns:w="urn:schemas-microsoft-com:office:word"
-                            href="https://www.pace-cardiology.com/referrals"
-                            style="
-                              height: 62px;
-                              v-text-anchor: middle;
-                              width: 220px;
-                            "
-                            arcsize="8%"
-                            stroke="f"
-                            fillcolor="#ed323f"
-                          >
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://afcompanion.com/PacePatientReferralForm.html" style="height: 62px; v-text-anchor: middle; width: 220px;" arcsize="8%" stroke="f" fillcolor="#ed323f">
                             <w:anchorlock />
-                            <center
-                              style="
-                                color: #ffffff;
-                                font-family: Arial, sans-serif;
-                                font-size: 18px;
-                                font-weight: normal;
-                              "
-                            >
-                              Submit a Referral
-                            </center>
+                            <center style="color: #ffffff; font-family: Arial, sans-serif; font-size: 18px; font-weight: normal;">Submit a Referral</center>
                           </v:roundrect>
                         <![endif]-->
                         <!--[if !mso]><!-->
-                        <a
-                          href="https://afcompanion.com/PacePatientReferralForm.html"
-                          target="_blank"
-                          style="
-                            background: #ed323f;
-                            color: #ffffff !important;
-                            font-family: helvetica, 'helvetica neue', arial,
-                              verdana, sans-serif;
-                            font-size: 18px;
-                            font-weight: normal;
-                            line-height: 22px;
-                            text-decoration: none;
-                            padding: 20px 25px;
-                            display: inline-block;
-                            border-radius: 5px;
-                          "
-                        >
+                        <a href="https://afcompanion.com/PacePatientReferralForm.html" target="_blank" style="background: #ed323f; color: #ffffff !important; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; font-size: 18px; font-weight: normal; line-height: 22px; text-decoration: none; padding: 20px 25px; display: inline-block; border-radius: 5px;">
                           Submit a Referral
                         </a>
                         <!--<![endif]-->
@@ -999,199 +296,36 @@
         </tr>
       </table>
 
-      <!-- ========================================
-         SECTION: Footer
-         Background: Navy Blue (#1d3557)
-         Includes: Logo, contact info, heartbeat divider, 
-                   copyright, and footer links
-         ======================================== -->
-      <table
-        role="presentation"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        border="0"
-        class="footer-table"
-        style="max-width: 700px; margin: 0 auto; background-color: #1d3557"
-      >
+      <!-- SECTION: Footer -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="footer-table" style="max-width: 700px; margin: 0 auto; background-color: #1d3557;">
         <tr>
-          <td class="mobile-padding mobile-top-padding" style="padding: 50px">
-            <table
-              role="presentation"
-              width="100%"
-              cellspacing="0"
-              cellpadding="0"
-              border="0"
-            >
+          <td class="mobile-padding mobile-top-padding" style="padding: 50px;">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
-                <td style="padding: 0; text-align: center">
-                  <!-- Logo -->
+                <td style="padding: 0; text-align: center;">
                   <a href="https://www.pace-cardiology.com/" target="_blank">
-                    <img
-                      src="https://pace-newsletter-dev.netlify.app/img/paceheartlogo.png"
-                      alt="PACE Cardiology"
-                      width="75"
-                      height="68"
-                      style="
-                        display: block;
-                        margin: 0 auto 10px auto;
-                        border: 0;
-                      "
-                    />
+                    <img src="https://pace-newsletter-dev.netlify.app/img/paceheartlogo.png" alt="PACE Cardiology" width="75" height="68" style="display: block; margin: 0 auto 10px auto; border: 0;" />
                   </a>
-
-                  <!-- Spacer -->
-                  <div style="height: 10px; font-size: 0; line-height: 0">
-                    &nbsp;
-                  </div>
-
-                  <!-- Contact Info -->
-                  <p
-                    class="body-text footer-text"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 200% !important;
-                      letter-spacing: 0;
-                      color: #ffffff;
-                      font-size: 16px;
-                      text-align: center;
-                    "
-                  >
-                    We're committed to providing innovative, timely,
-                    patient-centred care, with a clinical team dedicated to
-                    supporting your practice and prioritizing your patients'
-                    outcomes. If you have any questions or concerns, reach out
-                    to us at
-                    <a
-                      href="tel:1-888-662-0680"
-                      target="_blank"
-                      style="
-                        color: #ed323f;
-                        text-decoration: underline;
-                        font-size: 16px;
-                        line-height: 32px !important;
-                      "
-                      >1-888-662-0680</a
-                    >
+                  <div style="height: 10px; font-size: 0; line-height: 0;">&nbsp;</div>
+                  <p class="body-text footer-text" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 200% !important; letter-spacing: 0; color: #ffffff; font-size: 16px; text-align: center;">
+                    We're committed to providing innovative, timely, patient-centred care, with a clinical team dedicated to supporting your practice and prioritizing your patients' outcomes. If you have any questions or concerns, reach out to us at
+                    <a href="tel:1-888-662-0680" target="_blank" style="color: #ed323f; text-decoration: underline; font-size: 16px; line-height: 32px !important;">1-888-662-0680</a>
                     or visit
-                    <a
-                      href="https://www.pace-cardiology.com/"
-                      target="_blank"
-                      style="
-                        color: #ed323f;
-                        text-decoration: underline;
-                        font-size: 16px;
-                        line-height: 32px !important;
-                      "
-                      >www.pace-cardiology.com</a
-                    >.
+                    <a href="https://www.pace-cardiology.com/" target="_blank" style="color: #ed323f; text-decoration: underline; font-size: 16px; line-height: 32px !important;">www.pace-cardiology.com</a>.
                   </p>
-
-                  <!-- Heartbeat Divider -->
-                  <img
-                    src="https://pace-newsletter-dev.netlify.app/img/heartbeat.png"
-                    alt=""
-                    width="600"
-                    height="38"
-                    class="mobile-full-width adapt-img"
-                    style="
-                      display: block;
-                      margin: 10px auto;
-                      width: 100%;
-                      max-width: 600px;
-                      height: auto;
-                      border: 0;
-                    "
-                  />
-
-                  <!-- Copyright -->
-                  <p
-                    class="body-text footer-text"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 24px;
-                      letter-spacing: 0;
-                      color: #ffffff;
-                      font-size: 14px;
-                      text-align: center;
-                    "
-                  >
-                    Copyright © 2025 PACE Cardiology. Wishing you continued
-                    health & vitality.
+                  <img src="https://pace-newsletter-dev.netlify.app/img/heartbeat.png" alt="" width="600" height="38" class="mobile-full-width adapt-img" style="display: block; margin: 10px auto; width: 100%; max-width: 600px; height: auto; border: 0;" />
+                  <p class="body-text footer-text" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 24px; letter-spacing: 0; color: #ffffff; font-size: 14px; text-align: center;">
+                    Copyright &copy; 2025 PACE Cardiology. Wishing you continued health &amp; vitality.
                   </p>
-
-                  <!-- Locations -->
-                  <p
-                    class="body-text footer-text"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 24px;
-                      letter-spacing: 0;
-                      color: #ffffff;
-                      font-size: 16px;
-                      font-weight: bold;
-                      text-align: center;
-                    "
-                  >
+                  <p class="body-text footer-text" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 24px; letter-spacing: 0; color: #ffffff; font-size: 16px; font-weight: bold; text-align: center;">
                     Barrie | Newmarket | Orillia
                   </p>
-
-                  <!-- Footer Links -->
-                  <p
-                    class="body-text footer-text"
-                    style="
-                      margin: 10px 0;
-                      font-family: helvetica, 'helvetica neue', arial, verdana,
-                        sans-serif;
-                      mso-line-height-rule: exactly;
-                      line-height: 24px;
-                      letter-spacing: 0;
-                      color: #ffffff;
-                      font-size: 14px;
-                      text-align: center;
-                    "
-                  >
-                    <a
-                      href="https://www.pace-cardiology.com/sign-up/"
-                      target="_blank"
-                      style="
-                        color: #ffffff;
-                        text-decoration: underline;
-                        font-size: 14px;
-                      "
-                      >Join Our Mailing List</a
-                    >
+                  <p class="body-text footer-text" style="margin: 10px 0; font-family: helvetica, 'helvetica neue', arial, verdana, sans-serif; mso-line-height-rule: exactly; line-height: 24px; letter-spacing: 0; color: #ffffff; font-size: 14px; text-align: center;">
+                    <a href="https://www.pace-cardiology.com/sign-up/" target="_blank" style="color: #ffffff; text-decoration: underline; font-size: 14px;">Join Our Mailing List</a>
                     |
-                    <a
-                      href="https://linktr.ee/pacecardiology"
-                      target="_blank"
-                      style="
-                        color: #ffffff;
-                        text-decoration: underline;
-                        font-size: 14px;
-                      "
-                      >Follow Us</a
-                    >
+                    <a href="https://linktr.ee/pacecardiology" target="_blank" style="color: #ffffff; text-decoration: underline; font-size: 14px;">Follow Us</a>
                     |
-                    <a
-                      href="[UNSUBSCRIBE_URL]"
-                      target="_blank"
-                      style="
-                        color: #ffffff;
-                        text-decoration: underline;
-                        font-size: 14px;
-                      "
-                      >Unsubscribe</a
-                    >
+                    <a href="[UNSUBSCRIBE_URL]" target="_blank" style="color: #ffffff; text-decoration: underline; font-size: 14px;">Unsubscribe</a>
                   </p>
                 </td>
               </tr>
@@ -1199,6 +333,7 @@
           </td>
         </tr>
       </table>
+
     </div>
   </body>
 </html>
